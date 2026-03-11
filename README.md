@@ -66,7 +66,7 @@ terraform/
 provider.tf
 locals.tf
 network.tf
-security\_groups.tf
+security_groups.tf
 compute.tf
 README.md
 
@@ -176,7 +176,7 @@ To demonstrate the service is working, I verified repository operations:
 
 ### Upload (push)
 
-mkdir gitea-demo \&\& cd gitea-demo
+mkdir gitea-demo && cd gitea-demo
 git init
 echo "hello gitea" > test.txt
 git add test.txt
@@ -196,8 +196,7 @@ cat gitea-demo/test.txt
 
 * If terraform plan fails with missing auth, re-source the OpenStack RC file in the same terminal session.
 * If browser access times out, check:
-
   * security group allows port 3000 from VPN
   * container is running: docker ps
-
 * SSH to internal VM should fail if attempted directly (not via bastion), which confirms bastion-only SSH enforcement.
+
