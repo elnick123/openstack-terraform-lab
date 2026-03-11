@@ -1,4 +1,4 @@
-# Grand Lab - Nikola Savic (ITS25GS)
+# Terraform Openstack Lab
 
 
 
@@ -199,4 +199,5 @@ cat gitea-demo/test.txt
   * security group allows port 3000 from VPN
   * container is running: docker ps
 * SSH to internal VM should fail if attempted directly (not via bastion), which confirms bastion-only SSH enforcement.
+
 
